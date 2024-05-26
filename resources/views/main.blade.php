@@ -60,6 +60,15 @@ marquee {
                     <input type="text" name="name" id="name" placeholder="Search..." class="px-4 py-2 border rounded-lg">
                 </form>
             </div>
+            <div>
+                @auth
+
+                    <a href="{{route('Dashboard')}}">Dashboard</a>
+                    @else
+                    <a href="{{route('login')}}">Login</a>
+                  @endauth
+            </div>
+
         </div>
     </header>
     <!-- Breaking News -->

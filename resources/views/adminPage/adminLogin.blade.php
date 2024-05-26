@@ -62,6 +62,7 @@
     <input type="email" name="email" id="email" placeholder="Email">
     <input type="password" name="password" id="password" placeholder="Password">
     <input type="submit" value="Login">
+    <a href="{{route("register")}}">Register now?</a>
   </form>
 </body>
 </html>

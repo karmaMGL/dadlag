@@ -15,7 +15,7 @@
                     Admin Dashboard
                 </div>
                 <nav class="space-x-4 text-gray-700">
-                    <a href="index.html" class="hover:text-blue-500">Home</a>
+                    <a href="{{route('home')}}" class="hover:text-blue-500">Home</a>
                     <a href="article.html" class="hover:text-blue-500">View Articles</a>
                 </nav>
             </div>
